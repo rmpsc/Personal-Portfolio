@@ -1,0 +1,16 @@
+TO-DO
+
+1. app bar
+- Links (github, linkedin, resume, email)
+
+2. first block
+- Picture
+- About Me
+
+3. portfolio block
+- project name
+- project date
+- project description
+- project languages
+- github link
+- picture
