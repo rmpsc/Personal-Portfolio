@@ -1,11 +1,10 @@
 TO-DO
 
-1. app bar
-- Links (github, linkedin, resume, email)
-
-2. first block
+2. site header
 - Picture
-- About Me
+- Title
+- Intro
+- Link buttons
 
 3. portfolio block
 - project name
