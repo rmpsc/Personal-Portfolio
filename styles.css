@@ -17,6 +17,10 @@ body {
     margin-bottom: 50px;
 }
 
+.header-content > h2 {
+    margin-bottom: 5px;
+}
+
 .header-content {
     text-align: center;
     color: #292c34;
