@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 /* Master styles */
 * {
@@ -8,13 +8,23 @@
 }
 
 body {
-    background-color: #292c34;
-    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    font-family: "Karla", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+}
+
+/* header attributes */
 .site-header {
-    background-color: whitesmoke; 
+    position: relative;
     margin-bottom: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-bottom: 1px solid #292c34;
 }
 
 .header-content > h2 {
@@ -34,9 +44,10 @@ body {
 }
 
 .header-content > p {
+    line-height: 20px;
     padding-left: 600px;
     padding-right: 600px;
-    line-height: 30px;
+    font-weight: 550;
 }
 
 @keyframes fadeIn {
@@ -64,39 +75,51 @@ body {
     text-decoration: none;
 }
 
-.circle {
+.avatar-circle {
     display: inline-block;
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 100%;
+    border: 4px solid #292c34;
+    box-shadow: 0 0 1px 11px rgb(41, 44, 52 / 15%), 0 0 1px 22px rgb(41, 44, 52 / 10%);
 }
 
-.circle > img {
+.avatar-circle .avatar {
     width: auto;
     height: 100%;
-    margin-left: -30px;
+    margin-left: -20px;
+    display: inline-block
 }
 
+/* Project attributes */
 .project-timeline {
-    color:whitesmoke;
-    margin-left: 800px;
+    color:#292c34;
+    margin-left: 320px;
+    margin-right: 320px;
+    padding: 30px;
+    display: block;
+}
+
+.project-section-title {
+    font-size: 40px;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+.project-wrapper {
+    display: flex;
+}
+
+.project-timeline-date {
+
 }
 
 .project-details > * {
     margin-bottom: 10px;
 }
 
-.project-wrapper > div {
-    margin-right: 50px;
-    float: left;
-    align-items:baseline;
-}
-
-.project-wrapper > div > img {
-    height: 200px;
-}
 
 .project-description {
     margin-top: 30px;
@@ -105,4 +128,5 @@ body {
 
 .ul li::marker {
     font-size: large;
+    fill: black;
 }

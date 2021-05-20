@@ -3,22 +3,22 @@
     <head>
         <meta charset="utf-8" />
         <title>Romel Pascua Portfolio</title>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
 <body>
-    <section class="site-header">
+    <div class="site-header">
         <div class="header-content">
-            <div class="circle">
-                <img src="images/look.jpg" alt="pfp">
+            <div class="avatar-circle">
+                <img src="images/look.jpg" alt="pfp" class="avatar">
             </div>
             <h2>Romel Pascua</h2>
             <h4>Software Engineer</h4>
-            <p>
-                My name is Romel Pascua. I have experience in software engineering,
+            <!--
+            <p> My name is Romel Pascua. I have experience in software engineering,
                 mobile app development, API integration, and open source. I am eager to
                 gain knowledge of the industry through Software Engineering internships.
             </p>
+            -->
             <div class="site-links">
                 <a href="https://www.linkedin.com/in/romel-pascua/">
                     <img class="link-button" src="images/icons/linkedin.png" alt="">
@@ -34,29 +34,53 @@
                 </a>
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="project-timeline">
-        <div class="project-wrapper">
-            <div class="project-image">
-                <img src="images/projects/youtube.jpg" alt="YouTube img">
-            </div>
+        <h1 class="project-section-title">Projects</h1>
+        <ul>
+            <li class="project-wrapper">
+                <div class="project-timeline-date">
+                    <div class="project-timeline-date-text">May 2021</div>
+                </div>
+                <div class="project-details">
+                    <h2>YouTube Video Uploader</h2>
 
-            <div class="project-details">
-                <h2>YouTube Video Uploader</h2>
-                <div class="project-date-wrapper">
-                    <p>
-                        May 2021 | Java
-                    </p>
+                    <div class="project-image">
+                        <img src="images/projects/youtube.jpg" style="height: 200px" alt="YouTube img">
+                    </div>
+    
+                    <div class="project-description">
+                        <ul>
+                            <li>Accesses YouTube API (v3) via GCP OAuth 2.0 Client to upload local mp4 files</li>
+                            <li>Audit request required for public uploads</li>
+                        
+                        </ul>
+                    </div>
                 </div>
-                <div class="project-description">
-                    <ul>
-                        <li>Accesses YouTube API (v3) via GCP OAuth 2.0 Client to upload local mp4 files</li>
-                        <li>Audit request required for public uploads</li>
-                    
-                    </ul>
+            </li>
+            <li class="project-wrapper">
+                <div class="project-timeline-date">
+                    <div class="project-timeline-date-text">May 2021</div>
                 </div>
-            </div>
+                <div class="project-details">
+                    <h2>YouTube Video Uploader</h2>
+
+                    <div class="project-image">
+                        <img src="images/projects/youtube.jpg" style="height: 200px" alt="YouTube img">
+                    </div>
+    
+                    <div class="project-description">
+                        <ul>
+                            <li>Accesses YouTube API (v3) via GCP OAuth 2.0 Client to upload local mp4 files</li>
+                            <li>Audit request required for public uploads</li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="project-wrapper">
 
         </div>
     </section>
