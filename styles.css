@@ -13,13 +13,26 @@ body {
 }
 
 .site-header {
-    /* background-color: whitesmoke; */
+    background-color: whitesmoke; 
+    margin-bottom: 50px;
+}
+
+.header-content {
     text-align: center;
-    color: whitesmoke;
+    color: #292c34;
     padding: 50px;
     animation-delay: 1.75s;
     animation: fadeIn 1s ease;
+}
 
+.header-content > * {
+    margin-bottom: 20px;
+}
+
+.header-content > p {
+    padding-left: 600px;
+    padding-right: 600px;
+    line-height: 30px;
 }
 
 @keyframes fadeIn {
@@ -31,16 +44,6 @@ body {
 		opacity: 1;
 		transform: translate3d(0, 0, 0);
 	}
-}
-
-.site-header > * {
-    margin-bottom: 20px;
-}
-
-.site-header > p {
-    padding-left: 600px;
-    padding-right: 600px;
-    line-height: 30px;
 }
 
 .link-button {
@@ -70,4 +73,32 @@ body {
     width: auto;
     height: 100%;
     margin-left: -30px;
+}
+
+.project-timeline {
+    color:whitesmoke;
+    margin-left: 800px;
+}
+
+.project-details > * {
+    margin-bottom: 10px;
+}
+
+.project-wrapper > div {
+    margin-right: 50px;
+    float: left;
+    align-items:baseline;
+}
+
+.project-wrapper > div > img {
+    height: 200px;
+}
+
+.project-description {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.ul li::marker {
+    font-size: large;
 }

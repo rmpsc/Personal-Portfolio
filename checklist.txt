@@ -1,15 +1,18 @@
 TO-DO
 
 2. site header
-- Picture
-- Title
-- Intro
-- Link buttons
+- Picture DONE
+- Title DONE
+- Intro DONE
+- Link buttons DONE
+- seperate background color from fade in DONE
 
 3. portfolio block
-- project name
-- project date
-- project description
-- project languages
+- project name DONE
+- project date DONE
+- project description DONE
+- project languages DONE
 - github link
-- picture
+- picture DONE
+- timeline
+- img block?
