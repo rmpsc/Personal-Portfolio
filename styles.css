@@ -91,24 +91,47 @@ h1, h2, h3, h4, h5, h6 {
 /* Project attributes */
 .project-timeline {
     color:white;
-    margin-left: 320px;
-    margin-right: 320px;
-    padding: 30px;
-    display: block;
+    position: absolute;
 }
 
 .project-section-title {
     font-size: 40px;
     font-weight: 700;
     text-rendering: optimizeLegibility;
+    margin-bottom: 20px;
 }
 
 .project-wrapper {
-    display: flex;
+    /*border: 3px solid white;*/
+    padding: 20px;
+    margin-bottom: 50px;
+    position: relative;
 }
 
+/* 2 main blocks in each project */
 .project-timeline-date {
+    float: left;
+    padding: 20px;
+    /* border: 2px solid red; */
+    position: inherit;
+}
 
+.project-details {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border-left: 2px solid white;
+}
+
+.project-timeline-date::after {
+    content: " ";
+    position: absolute;
+    top: 25px;
+    right: -6.5px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
 }
 
 .project-details > * {
@@ -123,5 +146,5 @@ h1, h2, h3, h4, h5, h6 {
 
 .ul li::marker {
     font-size: large;
-    fill: black;
+    color: transparent;
 }
