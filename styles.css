@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 .project-timeline-date {
     /* border: 2px solid red; */
     padding-right: 20px;
-    position: relative;
+    position: inherit;
     width: 250px;
 }
 
@@ -128,6 +128,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 50%;
     border-left: 2px solid #292c34;
     padding-left: 50px;
+}
+
+.project-image {
+    width: 50%;
+}
+
+.project-image-col {
+    width: 50%;
 }
 
 .project-title-details {
