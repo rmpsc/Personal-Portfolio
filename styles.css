@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(235, 235, 235);
     font-family: "Karla", sans-serif;
 }
 
@@ -17,8 +17,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
     
 }
-
-
 
 /* header attributes */
 .site-header {
@@ -69,10 +67,6 @@ h1, h2, h3, h4, h5, h6 {
     transition: .5s ease 0s;
 }
 
-.link-button::hover {
-   
-}
-
 .avatar-circle {
     display: inline-block;
     position: relative;
@@ -92,15 +86,13 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block
 }
 
-
-
 /* Project attributes */
 .project-timeline {
     color:#292c34;
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding-left: 450px;
+    
     padding-top: 0px;
     flex-shrink: 1;
 }
@@ -129,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     /* border: 2px solid red; */
     padding-right: 20px;
     position: relative;
-    width: 100px;
+    width: 150px;
 }
 
 .project-details {
@@ -149,6 +141,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-timeline-date-text {
     text-align: right;
+    font-weight: 550;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
 }
 
 .project-timeline-date::after {
@@ -170,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 550;
     font-size: 18px;
     text-rendering: optimizeLegibility;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .project-description > ul {
@@ -178,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
-.ul li::marker {
-    font-size: large;
-    color: transparent;
+.project-image-col {
+    display: flex;
+    flex-direction: column;
 }
