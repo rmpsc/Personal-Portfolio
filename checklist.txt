@@ -12,7 +12,11 @@ TO-DO
 - project date DONE
 - project description DONE
 - project languages DONE
-- github link
+- github link DONE
 - picture DONE
-- timeline
-- img block?
+- timeline DONE
+- img block? DONE
+
+4. fixes
+- make all project blocks same size
+- add fadeIn transition to projects
