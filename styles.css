@@ -67,6 +67,26 @@ h1, h2, h3, h4, h5, h6 {
     transition: .5s ease 0s;
 }
 
+.site-links > a .tooltip {
+    visibility: hidden;
+    width: 70px;
+    
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    font-size: small;
+    
+    margin-left: -73px;
+    margin-top: 60px;
+    position: absolute;
+    
+}
+
+.site-links > a:hover .tooltip{
+    visibility: visible;
+}
+
+
 .avatar-circle {
     display: inline-block;
     position: relative;
