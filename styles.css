@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgb(235, 235, 235);
+    background-color: white;
     font-family: "Karla", sans-serif;
 }
 
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     /*border: 3px solid white;*/
     display: flex;
     position: relative;
-    justify-content: left;
+    justify-content: space-between;
 }
 
 /* 2 main blocks in each project */
@@ -174,6 +174,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 50%;
     border-left: 2px solid #292c34;
     padding-left: 50px;
+    margin-right: 120px;
 }
 
 .project-image {
