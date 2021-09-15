@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 .avatar-circle .avatar {
     width: auto;
     height: 100%;
-    margin-left: px;
+    margin-left: -20px;
     display: inline-block
 }
 
